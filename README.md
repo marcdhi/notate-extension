@@ -1,6 +1,6 @@
-# Web Notes AI Chrome Extension
+# Notate Agent Chrome Extension
 
-A Chrome extension that uses Claude AI to automatically generate study notes from web pages and save them to GitHub.
+A Chrome agent that uses Claude AI to automatically generate study notes from web pages and save them to GitHub.
 
 ## Installation & Setup
 
@@ -26,16 +26,17 @@ A Chrome extension that uses Claude AI to automatically generate study notes fro
    - Click the extension icon in Chrome
    - Go to Options/Settings
    - Enter your Anthropic API key and GitHub PAT
+   - Github username
    - Click Save
 
 ## Usage
 
 1. Visit any webpage you want to take notes from
 2. Click the extension icon
-3. Click "Generate Notes"
-4. The AI will create study notes that will be:
+3. Click "Take Notes"
+4. The AI agent will create study notes that will be:
    - Saved locally in Chrome
-   - Pushed to your GitHub repository (web0-notes)
+   - Pushed to your GitHub repository (notate-notes)
 
 Notes are automatically organized in the `notes/` directory of your GitHub repo.
 
