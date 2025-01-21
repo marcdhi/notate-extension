@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Web Notes AI Options</title>
+  <style>
+    body {
+      padding: 20px;
+      font-family: system-ui, sans-serif;
+    }
+    .container {
+      max-width: 500px;
+      margin: 0 auto;
+    }
+    .form-group {
+      margin-bottom: 15px;
+    }
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+    input {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+    }
+    button {
+      background: #2563eb;
+      color: white;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .status {
+      margin-top: 10px;
+      color: #059669;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Web Notes AI Settings</h2>
+    <div class="form-group">
+      <label for="anthropicKey">Anthropic API Key:</label>
+      <input type="password" id="anthropicKey" placeholder="Enter your Anthropic API key">
+    </div>
+    <div class="form-group">
+      <label for="githubToken">GitHub Token:</label>
+      <input type="password" id="githubToken" placeholder="Enter your GitHub token">
+    </div>
+    <div class="form-group">
+      <label for="githubUsername">GitHub Username:</label>
+      <input type="text" id="githubUsername" placeholder="Enter your GitHub username">
+    </div>
+    <button id="save">Save Settings</button>
+    <div id="status" class="status"></div>
+  </div>
+  <script type="module" src="options.js"></script>
+</body>
+</html> 
